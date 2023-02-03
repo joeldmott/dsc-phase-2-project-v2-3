@@ -2,7 +2,7 @@
 
 ### Project Overview:
 
-The purpose of this project is to enable a real estate stakeholder to make specific recommendations to families with school-age children who are considering a new home. I use linear regression modeling in order to account for various common factors that such families consider. Beginning with a baseline model as a benchmark, I add and refine multiple predictors until I have a trained model that outperforms said baseline model while satisfying linear regression requirements and issues pertaining to multicollinearity. 
+The purpose of this project is to enable a real estate stakeholder to make specific recommendations to families with school-age children who are considering a new home. I use linear regression modeling in order to account for various common factors that such families consider. Beginning with a baseline model as a benchmark, I add and refine multiple predictors until I have a trained model that outperforms said baseline model while satisfying linear regression requirements and issues pertaining to multicollinearity. The stakeholder-friendly, non-technical presentation may be found here: https://github.com/joeldmott/dsc-phase-2-project-v2-3/blob/main/project%20presentation.pdf
 
 ### Business & Data Understanding:
 
