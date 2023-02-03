@@ -1,14 +1,14 @@
-#Phase 2 Project - Joel Mott
+# Phase 2 Project - Joel Mott
 
-###Project Overview:
+### Project Overview:
 
 The purpose of this project is to enable a real estate stakeholder to make specific recommendations to families with school-age children who are considering a new home. I use linear regression modeling in order to account for various common factors that such families consider. Beginning with a baseline model as a benchmark, I add and refine multiple predictors until I have a trained model that outperforms said baseline model while satisfying linear regression requirements and issues pertaining to multicollinearity. 
 
-###Business & Data Understanding:
+### Business & Data Understanding:
 
 This fictional stakeholder would be a residential real estate company based in and serving King County, Washington, which includes Seattle, many of its neighboring suburbs, and rural areas to the east. This stakeholder wants specific insight on data that will help them make reliable recommendations to both buyers and sellers when it comes to a home's listing price. This stakeholder would almost certainly already be aware of some obvious findings below (how square footage has a strong correlation with listing price), so my scope of work would be to find some sort of insight that brings value to the company that they may not have necessarily considered in-depth yet. In this sense, my recommendations may not necessarily appeal to *every* buyer, such as those who do not have school-age children in mind, but they would still have some relevance to any seller residing in a good school district. 
 
-###Modeling
+### Modeling
 
 My approach is an iterative process that begins with a baseline model with just the highest-correlating predictor (square footage) and the target variable (price) without any sort of transformation applied to either. This results in an R-sqaured value of 0.492 and a condition number over 1,600. This shows a strong correlation, but some likely issues with non-normal distribution. 
 
@@ -26,12 +26,12 @@ Another idea I had for familial considerations when purchasing a home was whethe
 
 Finally, I looked at the distribution of the target variable and found that it was also highly skewed. Subsequently, after applying a logarithmic transformation, the distribution was normal and the final model's R-sqaured score rose to 0.666 with a reasonable condition number easing concerns about multicollinearity or distributions. 
 
-###Regression Results
+### Regression Results
 
 The results of this final model (shown at the end of the notebook) still have square footage taking the lead on price correlation, but also highlighting a significant impact on home prices in neighborhoods with school districts receiving a Niche.com score at or above an "A-". Of course, there are likely confounding factors at work; the higher-scoring districts are largely in our surrounding Seattle, but balancing school districts with afforadability and square footage are often primary concerns of families as opposed to other location-based considerations. 
 
 Additionally, it was interesting to see how the number of bedrooms had very little impact on listing price and, at that, it was a negative correlation. This may be explained by smaller homes or layouts with fewer rooms still costing quite a lot due ot their location in Seattle. 
 
-###Conclusion
+### Conclusion
 
 The resuls of this model offer the stakeholder specific recommendations to make to any client selling a home in a high-scoring school district. It also helps inform family buyers of how much to expect to pay for homes in these districts while balancing other common concerns. With this refined model's perspective on their data, the stakeholder would have more specific insight into a large part of the market to give it an advantage over its competitors.
