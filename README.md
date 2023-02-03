@@ -37,6 +37,7 @@ Additionally, it was interesting to see how the number of bedrooms had very litt
 The resuls of this model offer the stakeholder specific recommendations to make to any client selling a home in a high-scoring school district. It also helps inform family buyers of how much to expect to pay for homes in these districts while balancing other common concerns. With this refined model's perspective on their data, the stakeholder would have more specific insight into a large part of the market to give it an advantage over its competitors.
 
 ### Repository Structure:
+```
 ├── data
 │   ├── column_names.md
 │   ├── kc_house_data.csv
@@ -54,3 +55,4 @@ The resuls of this model offer the stakeholder specific recommendations to make 
 ├── histogram of square footage and house counts.jpg
 ├── presentation.pdf
 └── student.ipynb
+```
