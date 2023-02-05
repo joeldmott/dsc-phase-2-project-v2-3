@@ -2,7 +2,7 @@
 
 ### Project Overview:
 
-The purpose of this project is to enable a real estate stakeholder to make specific recommendations to families with school-age children who are considering a new home. I use linear regression modeling in order to account for various common factors that such families consider. Beginning with a baseline model as a benchmark, I add and refine multiple predictors until I have a trained model that outperforms said baseline model while satisfying linear regression requirements and issues pertaining to multicollinearity. 
+The purpose of this project is to enable a real estate stakeholder to make specific recommendations to families with school-age children who are considering a new home. I use linear regression modeling in order to account for various common factors that such families consider. Beginning with a baseline model as a benchmark, I add and refine multiple predictors until I have a trained model that outperforms said baseline model while satisfying linear regression requirements and issues pertaining to multicollinearity. The stakeholder-friendly, non-technical presentation may be found here: https://github.com/joeldmott/dsc-phase-2-project-v2-3/blob/main/project%20presentation.pdf
 
 ### Business & Data Understanding:
 
@@ -35,3 +35,24 @@ Additionally, it was interesting to see how the number of bedrooms had very litt
 ### Conclusion
 
 The resuls of this model offer the stakeholder specific recommendations to make to any client selling a home in a high-scoring school district. It also helps inform family buyers of how much to expect to pay for homes in these districts while balancing other common concerns. With this refined model's perspective on their data, the stakeholder would have more specific insight into a large part of the market to give it an advantage over its competitors.
+
+### Repository Structure:
+```
+├── data
+│   ├── column_names.md
+│   ├── kc_house_data.csv
+│   ├── kc_school_district_data.csv
+│   ├── kc_school_district_data.xlsx
+│   ├── kc_school_district_scores.csv
+│   ├── kc_zipcodes.csv
+│   ├── kc_zipcodes_median_age.csv
+├── .canvas
+├── .gitignore
+├── CONTRIBUTING.md
+├── LICENSE.md
+├── README.md
+├── histogram of logged square footage and house counts.jpg
+├── histogram of square footage and house counts.jpg
+├── presentation.pdf
+└── student.ipynb
+```
