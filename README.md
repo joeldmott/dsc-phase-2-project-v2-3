@@ -36,6 +36,8 @@ Additionally, it was interesting to see how the number of bedrooms had very litt
 
 The resuls of this model offer the stakeholder specific recommendations to make to any client selling a home in a high-scoring school district. It also helps inform family buyers of how much to expect to pay for homes in these districts while balancing other common concerns. With this refined model's perspective on their data, the stakeholder would have more specific insight into a large part of the market to give it an advantage over its competitors.
 
+I wrote a blog post on this project, which can be found here: https://medium.com/@joel.mott8/enhancing-and-narrowing-linear-regression-results-with-outside-data-5f0d22c67132
+
 ### Repository Structure:
 ```
 ├── data
