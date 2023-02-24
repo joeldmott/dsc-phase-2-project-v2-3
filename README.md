@@ -50,9 +50,6 @@ I wrote a blog post on this project, which can be found here: https://medium.com
 │   ├── kc_zipcodes_median_age.csv
 ├── .canvas
 ├── .gitignore
-├── CONTRIBUTING.md
-├── LICENSE.md
-├── README.md
 ├── histogram of logged square footage and house counts.jpg
 ├── histogram of square footage and house counts.jpg
 ├── presentation.pdf
